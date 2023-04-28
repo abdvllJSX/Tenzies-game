@@ -1,0 +1,29 @@
+@import "./main.scss";
+
+
+main{
+    background-color: #F5F5F5;
+    height: 400px;
+    max-width: 800px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.dice-container{
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    padding: 10px;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+    background-color: $btn-color;
+    width: 120px;
+    height: 50px;
+    color: $default-color;
+    text-transform: capitalize;
+    font-size: 24px;
+}

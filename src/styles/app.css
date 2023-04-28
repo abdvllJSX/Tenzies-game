@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: visible;
+  height: 100vh;
+  font-size: 1.1111111111vw;
+}
+
+body {
+  background-color: #0B2434;
+  font-family: "Karla", sans-serif;
+  padding: 20px;
+}
+
+button {
+  outline: none;
+  border: none;
+  font-family: inherit;
+}
+
+main {
+  background-color: #F5F5F5;
+  height: 400px;
+  max-width: 800px;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dice-container {
+  display: grid;
+  grid-template: auto auto/repeat(5, 1fr);
+  padding: 10px;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  background-color: #5035FF;
+  width: 120px;
+  height: 50px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  font-size: 24px;
+}/*# sourceMappingURL=app.css.map */

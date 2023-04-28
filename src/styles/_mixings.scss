@@ -1,0 +1,15 @@
+@mixin flex($jc, $ai, $gap){
+    display: flex;
+    align-items: $ai;
+    justify-content: $jc;
+    gap: $gap;
+}
+@mixin flex_col($gap){
+    display: flex;
+    flex-direction: column;
+    gap: $gap;
+}
+@function toRem($value) {
+    $remValue: (calc($value / 16)) + rem;
+    @return $remValue;
+}
