@@ -10,7 +10,6 @@ html{
     overflow-x: hidden;
     overflow-y: visible;
     height: 100vh;
-    font-size: calc(100vw / 1440 * 16);
 }
 body{
     background-color: $secondary-background-color;
